@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Sanchez:ital@0;1&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap');
+
+.about p{
+    margin-left: 474px;
+    margin-right: 473px;
+    margin-bottom: 46px;
+}
+
+.btn-contact{
+    padding-bottom: 286px;
+}
+
+.hero a{
+    text-decoration: none;
+}
+
+.contact p{
+    width:434px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+
+h1 {
+    font-family: anton sc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.8rem;
+    line-height: 7.2rem;
+    color: #000000;
+    text-transform: uppercase;
+    text-align:center;
+  }
+  h2 {
+    font-family: anton sc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #000000;
+    text-transform: uppercase;
+    text-align:center;
+  }
+  h3 {
+    font-family: anton sc, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #000000;
+    text-align:center;
+  }
+
+html {
+    font-size: 10px;
+  }
+
+.imgthumbs{
+    text-align: center;
+    padding-top: 305px;
+}
+
+.imgrake{
+    text-align: center;
+    padding-top: 207px;
+    padding-bottom: 207px;
+}
+
+.imgshovel{
+    text-align: center;
+    padding-top: 207px;
+    padding-bottom: 207px;
+  }
+
+.imgtitle{
+    padding-left: 282px;
+    padding-right: 216px;  
+    padding-top: 179px;  
+}
+
+.imgwatercan{
+    text-align: center;
+    padding-top: 207px;
+    padding-bottom: 207px;
+}
+
+.imgwork{
+    text-align: center;
+}
+
+.legal{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 21px;
+    width:391px;
+    justify-content:space-between;
+    padding-bottom: 45px;
+}
+
+
+.nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 24px;
+    width:581px;
+    justify-content:space-between;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+  p{
+    font-family: amiko, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    color: #000;
+    text-align:center;
+  }
+
+  span{
+    background-color: #C9FB2D;
+    padding-left: 15px;
+    padding-right:15px;
+  }
+
+  .timeframe{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    height: 21px;
+    width:431px;
+    justify-content:space-between;
+    padding-bottom: 53px;
+}
+
+  ul {
+    list-style-type: none;
+  }
