@@ -7,8 +7,13 @@
     margin-bottom: 46px;
 }
 
-.btn-contact{
-    padding-bottom: 286px;
+.button{
+    padding-bottom: 260px;
+    text-align:center;
+}
+
+.button_sm{
+  display:none;
 }
 
 .hero a{
@@ -57,37 +62,59 @@ html {
     font-size: 10px;
   }
 
-.imgthumbs{
-    text-align: center;
-    padding-top: 305px;
-}
-
 .imgrake{
     text-align: center;
-    padding-top: 207px;
-    padding-bottom: 207px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.imgrake_sm{
+  display:none;
 }
 
 .imgshovel{
     text-align: center;
-    padding-top: 207px;
-    padding-bottom: 207px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .imgshovel_sm{
+    display: none;
   }
 
 .imgtitle{
-    padding-left: 282px;
-    padding-right: 216px;  
+text-align:center;
     padding-top: 179px;  
+    padding-left: 65px;
+}
+
+.imgtitle_sm{
+  display: none;
+}
+
+.imgthumbs{
+  text-align: center;
+  padding-top: 150px;
+}
+
+.imgthumbs_sm{
+display:none;
 }
 
 .imgwatercan{
     text-align: center;
     padding-top: 207px;
-    padding-bottom: 207px;
+    padding-bottom: 150px;
+}
+.imgwatercan_sm{
+  display:none;
 }
 
 .imgwork{
     text-align: center;
+}
+
+.imgwork_sm{
+ display:none;
 }
 
 .legal{
@@ -98,6 +125,12 @@ html {
     width:391px;
     justify-content:space-between;
     padding-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.legal p{
+  color: #727272;
 }
 
 
@@ -108,6 +141,9 @@ html {
     height: 24px;
     width:581px;
     justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 85px;
 }
 
 nav li a {
@@ -124,6 +160,18 @@ nav li a {
     text-align:center;
   }
 
+  .prices h2 {
+    margin-top: 36px;
+  }
+
+.prices h3 {
+  margin-top: -20px;
+}
+
+.prices p {
+  margin-top: -15px;
+}
+
   span{
     background-color: #C9FB2D;
     padding-left: 15px;
@@ -138,8 +186,109 @@ nav li a {
     width:431px;
     justify-content:space-between;
     padding-bottom: 53px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   ul {
     list-style-type: none;
+    margin-left: -40px;
   }
+
+   /* MEDIA QUERY */ 
+@media (max-width: 1024px) {
+
+  /* NAV */
+  .nav{
+    display: none;
+  }
+
+  /* HERO */
+  .imgtitle{
+    display:none;
+  } 
+  .imgtitle_sm{
+    display:block;
+    text-align: center;
+    margin-top:330px;
+    padding-left: 20px;
+  } 
+
+  .timeframe{
+    display: none;
+}
+.button{
+  display:none;
+}
+
+.button_sm{
+  display:block;
+  text-align: center;
+  padding-bottom: 330px;
+}
+
+  /* MY WORK */
+.imgwork{
+  display:none;
+}
+.imgwork_sm{
+  display:block;
+  text-align: center;
+}
+
+  /* ABOUT */
+  .imgwatercan{
+    display:none;
+  }
+  .imgwatercan_sm{
+    display:block;
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 15px;
+  }
+  .about p{
+    margin-left: 59px;
+    margin-right: 59px;
+}
+.imgrake{
+  display:none;
+}
+.imgrake_sm{
+  display: block;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+  /* PRICING */
+.imgshovel{
+  display: none;
+  
+}
+.imgshovel_sm{
+  display:block;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+  /* CONTACT */
+  .contact h1{
+    line-height: 49px;
+  }
+  .contact p{
+    width:307px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:px;
+}
+
+  /* FOOTER */
+.imgthumbs{
+  display: none;
+}
+.imgthumbs_sm{
+  display:block;
+  text-align: center;
+  margin-top: 110px;
+}
+}
